@@ -22,11 +22,8 @@ This project was part of the Rocketseat event "Edição 5 - Trilha ReactJS Front
 
 - [Course][course-url]
 - [Instructor][instructor-url]
-- [Certificate][certificate-url]
 
-### Certificate
-
-This certificate above verifies that [Nitai Charan][udemy-url] successfully completed the course [Edição 5 - Trilha ReactJS Front-end][course-url] on ??/??/???? as taught by [Diego Fernandes][instructor-url] on Rocketseat. The certificate indicates the entire course was completed as validated by the student.
+### 
 
 <p align="center">
   <img src="CERTIFICATE.jpg">
