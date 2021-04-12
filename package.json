@@ -1,15 +1,26 @@
 {
-  "name": "rocketseate5trjsfe1",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "10.1.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  }
+    "name": "rocketseate5trjsfe1",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "server": "json-server server.json -w -d 750 -p 3333",
+        "dev:all": "npm-run-all --parallel server dev"
+    },
+    "dependencies": {
+        "date-fns": "^2.21.1",
+        "next": "10.1.3",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "sass": "^1.32.11"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.41",
+        "@types/react": "^17.0.3",
+        "json-server": "^0.16.3",
+        "npm-run-all": "^4.1.5",
+        "typescript": "^4.2.4"
+    }
 }
