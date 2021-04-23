@@ -61,13 +61,7 @@ export default function Episode({ episode }: EpisodeProps) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-    const { data } = await api.get<Episode[]>('/episodes', {
-        params: {
-            _limit: 2,
-            _sort: 'published_at',
-            _order: 'desc'
-        }
-    });
+    const { data } = await api.get('').then(res => ({ data: res.data.episodes }));
 
 
     const paths = data.map(episode => ({
@@ -86,7 +80,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async (context) => {
     const { slug } = context.params;
 
-    const { data } = await api.get(`/episodes/${slug}`);
+    const { data } = await api.get('')
+        .then<Episode[]>(res => res.data.episodes)
+        .then<any>(episodes => ({ data: episodes.find(e => e.id === slug) }));
 
     const episode = {
         ...data,

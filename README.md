@@ -7,10 +7,10 @@
 ![CSS3][css3-shield]
 ![Sass][sass-shield]
 
-<p align="center">:bangbang: Project available to access at: https://nitaicharan.github.io/Rocketseat-E5TRJSFE1 :bangbang:</p>
+<p align="center">:bangbang: Project available to access at: https://rocketseate5trjsfe1-clgq8mgj6-nitaicharan.vercel.app/ :bangbang:</p>
 
-<!--[![](Rocketseat-E5TRJSFE1.png)](https://nitaicharan.github.io/Rocketseat-E5TRJSFE1/)-->
-<a href="https://nitaicharan.github.io/Rocketseat-E5TRJSFE1">
+<!--[![](Rocketseat-E5TRJSFE1.png)](https://rocketseate5trjsfe1-clgq8mgj6-nitaicharan.vercel.app//)-->
+<a href="https://rocketseate5trjsfe1-clgq8mgj6-nitaicharan.vercel.app/">
   <p align="center">
     <img style="height: 100px" src="PREVIEW.png">
   </p>
